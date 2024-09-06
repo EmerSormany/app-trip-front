@@ -1,0 +1,125 @@
+.top{
+    height: 130px;
+    width: 100%;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0px 0px 0px 50px;
+    align-items: center;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 50px;
+    background-color: gainsboro;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.nomeUsuario{
+    font-size: 22px;
+}
+
+.embaixoDoNome{
+    font-size: 14px;
+    color: gainsboro;
+}
+
+.topEsquerda{
+    margin-left: 10px;
+    color: white;
+}
+
+.topDireita{
+    margin-right: 10px;
+}
+
+.barraTopPesquisa{
+    margin-top: -20px;
+    margin-left: 70px;
+}
+
+.barraTopPesquisa input{
+    border-radius: 10px;
+    border: 1px;
+}
+
+.barraTopPesquisa input{
+    width: 270px;
+    height: 35px;
+}
+
+.fotoPerfil{
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+}
+
+.iconesTop{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.linhaIcones{
+    margin: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.primeiro{
+    flex-direction: column;
+    font-size: small;
+}
+
+.segundo{
+    justify-content: space-around;
+    font-size: small;
+}
+
+.terciro{
+    justify-content: space-around;
+    font-size: small;
+}
+
+.tituloDestinos{
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.barraBot{
+    height: 40px;
+    width: 100%;
+    background-color: darkcyan;
+    border-radius: 12px;
+    position: fixed;
+    bottom: 0px;
+}
+
+.iconesBot{
+    height: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.destinos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin: 7px;
+}
+
+.destinos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
