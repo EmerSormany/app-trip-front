@@ -110,7 +110,26 @@ p{
     margin-right: 10%;
 }
 
-.destinos {
+.destinos{
+    margin: 7px;
+    display: flex;
+    gap: 10px;
+}
+
+.coluna{
+    flex: 1;
+    flex-direction: column;
+}
+
+.coluna img {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+/* .destinos {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 10px;
@@ -122,4 +141,4 @@ p{
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
-}
+} */
